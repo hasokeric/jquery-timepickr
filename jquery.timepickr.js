@@ -6,16 +6,10 @@
   MIT License (http://www.opensource.org/licenses/mit-license.php
   Modified under license by Daniel Wachsstock & Haso Keric
   
-	Updated 10/22/2010 for jQuery UI 1.8.5
+	Updated 10/25/2010 for jQuery UI 1.8.5
 */
 
 (function($) {
-	$('<style>'+
-		'.ui-timepickr {position:absolute; text-align: left; } '+
-		'.ui-timepickr ol { margin-top:2px; } '+
-		'.ui-timepickr li {float: left; font-size:.7em; padding:4px 6px 4px 6px; margin-left:2px; cursor: pointer;} '+
-		'</style>').appendTo('head');
-
 	var menuTemplate = '<div class="ui-helper-reset ui-timepickr ui-widget" />';
 	var rowTemplate = '<ol />';
 	var buttonTemplate = '<li class="{className}">{label}</li>';
