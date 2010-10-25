@@ -22,7 +22,7 @@
 }
 .ui-timepickr ol li.hour, 
 .ui-timepickr ol li.minute, 
-.ui-timepickr ol li.second { width: 30px; }
+.ui-timepickr ol li.second { width: 13px; }
 
 /* dark theme */
 
